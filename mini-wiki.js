@@ -1,0 +1,6 @@
+// Crear un programa que permita al usuario ingresar una elección sobre una temática en particular (p.ej.: personajes de Marvel, animales, géneros de música, etc.) y dependiendo de la opción que elija muestre un mensaje con una breve información sobre la opción elegida. Si no se elige alguna de las elecciones propuestas, mostrar un mensaje de advertencia. Hacer mínimo 4 opciones posibles.
+
+alert("Bienvenido a WikiMovies, deberá elegir sobre algunos de estos género de cine");
+const eleccion = prompt("Escriba la opción sobre la cual le gustaría conocer: Harry Poterr, El serñor de los anillos, La saga de Batman y Marvel Comics");
+
+eleccion === "Harry Potter" && alert("Sabía que su creadora no tenía ni un peso partido por la mitad antes de crear la saga. Le pedía a los dueños de los bares que le cuiden a su pequeño hijo") || eleccion ==="Señor de los anillos" && alert("Lo mejor del cine, lejos") || eleccion === "batman" && alert("Da ocote Ben Afleck de Batman, es hora que alguien lo diga") || eleccion === "marvel" && alert("No me gusta demasido este mundo") || eleccion  !== "Harry Potter" && eleccion !== "Señor de los anillos" && eleccion !== "batman" && eleccion !== "marvel" && alert("No hay nada que te interese, sos un gil");
